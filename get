@@ -1,0 +1,2 @@
+ for wallet in wallets:
+        queue_tasks.put(('get_wallet_balance', wallet))
